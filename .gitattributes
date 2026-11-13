@@ -1,0 +1,7 @@
+# VBA モジュール：CP932・CRLF のまま保つ（Git に一切変換させない）
+*.bas   -text -diff
+*.md    text eol=lf
+*.txt   text eol=lf
+*.py    text eol=lf
+*.xlsx  binary
+*.xlsm  binary
